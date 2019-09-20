@@ -26,6 +26,13 @@
 	<link rel="stylesheet" href="css/main.min.css">
   <link rel="stylesheet" href="libs/bootstrap-grid/bootstrap-grid.min.css">
   <script src="libs/jquery/jquery.min.js"></script>
+
+  <!-- jQuery 1.8 or later, 33 KB -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <!-- Fotorama from CDNJS, 19 KB -->
+  <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
 </head>
 <body>
 	<header class="header">
@@ -243,31 +250,62 @@
 <section class="products">
   <div class="container">
     <h2 class="section-title">
-      Наша продукция 
-    </h2>
-    <!-- /.section-title -->
-    <div class="row">
-      <div class="col-6">
-        <div class="products-block">
-          <img class="products-block__img" src="img/products/img1.png" alt="#">
-          <div class="products-block__title">
-            Гофрокороб 4-х клапанный 
-          </div>
-          <!-- /.products-block__title -->
-          <div class="products-block__buttons"><button class="button button-o products-block__buttons">Подробнее</button><button class="button">Получить расчет</button></div>
-          <!-- /.products-block__buttons -->
+    Наша продукция 
+  </h2>
+  <!-- /.section-title -->
+  <div class="row">
+    <div class="col-6">
+      <div class="products-block">
+        <img class="products-block__img" src="img/products/img1.png" alt="#">
+        <div class="products-block__title">
+          Гофрокороб 4-х клапанный 
         </div>
-        <!-- /.products-block -->
+        <!-- /.products-block__title -->
+        <div class="products-block__buttons"><button class="button button-o products-block__buttons">Подробнее</button><button class="button">Получить расчет</button></div>
+        <!-- /.products-block__buttons -->
       </div>
-      <!-- /.col-6 -->
-      <div class="col-6">
-        <div class="products-block">
-          <img class="products-block__img" src="img/products/img2.png" alt="#">
-          <div class="products-block__title">
-            Гофролоток
-          </div>
-          <!-- /.products-block__title -->
-          <div class="products-block__buttons"><button class="button button-o products-block__buttons">Подробнее</button><button class="button">Получить расчет</button></div>
+      <!-- /.products-block -->
+    </div>
+    <!-- /.col-6 -->
+    <div class="col-6">
+      <div class="products-block">
+        <img class="products-block__img" src="img/products/img2.png" alt="#">
+        <div class="products-block__title">
+          Гофролоток
+        </div>
+        <!-- /.products-block__title -->
+        <div class="products-block__buttons"><button class="button button-o products-block__buttons">Подробнее</button><button class="button">Получить расчет</button></div>
+        <!-- /.products-block__buttons -->
+      </div>
+      <!-- /.products-block -->
+    </div>
+    <!-- /.col-6 -->
+  </div>
+  <!-- /.row -->
+  <div class="row">
+    <div class="col-6">
+      <div class="products-block">
+        <img class="products-block__img" src="img/products/img3.png" alt="#">
+        <div class="products-block__title">
+          Гофрокороб самосборный (сложная высечка)
+        </div>
+        <!-- /.products-block__title -->
+        <div class="products-block__buttons"><button class="button button-o products-block__buttons">Подробнее</button><button class="button">Получить расчет</button></div>
+        <!-- /.products-block__buttons -->
+      </div>
+      <!-- /.products-block -->
+    </div>
+    <!-- /.col-6 -->
+    <div class="col-6">
+      <div class="products-block">
+        <img class="products-block__img" src="img/products/img4.png" alt="#">
+        <div class="products-block__title">
+          Листовой гофрокартон
+        </div>
+        <!-- /.products-block__title -->
+        <div class="products-block__buttons">
+          <button class="button button-o products-block__buttons">Подробнее</button>
+          <button class="button">Получить расчет</button></div>
           <!-- /.products-block__buttons -->
         </div>
         <!-- /.products-block -->
@@ -275,41 +313,57 @@
       <!-- /.col-6 -->
     </div>
     <!-- /.row -->
-    <div class="row">
-      <div class="col-6">
-        <div class="products-block">
-          <img class="products-block__img" src="img/products/img3.png" alt="#">
-          <div class="products-block__title">
-            Гофрокороб самосборный (сложная высечка)
-          </div>
-          <!-- /.products-block__title -->
-          <div class="products-block__buttons"><button class="button button-o products-block__buttons">Подробнее</button><button class="button">Получить расчет</button></div>
-          <!-- /.products-block__buttons -->
-        </div>
-        <!-- /.products-block -->
-      </div>
-      <!-- /.col-6 -->
-      <div class="col-6">
-        <div class="products-block">
-          <img class="products-block__img" src="img/products/img4.png" alt="#">
-          <div class="products-block__title">
-            Листовой гофрокартон
-          </div>
-          <!-- /.products-block__title -->
-          <div class="products-block__buttons">
-            <button class="button button-o products-block__buttons">Подробнее</button>
-            <button class="button">Получить расчет</button></div>
-            <!-- /.products-block__buttons -->
-          </div>
-          <!-- /.products-block -->
-        </div>
-        <!-- /.col-6 -->
-      </div>
-      <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</section>
+<!-- /.products -->
+
+<section class="offer dark-bg">
+  <div class="container">
+    <h2 class="offer-title">
+      Получите индивидуальное предложение 
+      <span class="offer-title_small">на производство
+      и поставку изделий</span>
+    </h2>
+    <!-- /.offer-title -->
+    <div class="offer-form">
+      <form action="#" >
+        <label class="offer-form__label" for="">Введите ваш номер телефона</label>
+        <input class="form__input offer-form__input" type="tel" placeholder="+7 (XXX) XXX-XX-XX">
+        <button class="button offer-form__button" type="button">Оставить заявку!</button>
+      </form>
+      <small class="form-small">*Минимальный заказ 500шт</small>
     </div>
-    <!-- /.container -->
-  </section>
-  <!-- /.products -->
-  <script src="js/scripts.min.js"></script>
+    <!-- /.offer-form -->
+  </div>
+  <!-- /.container -->
+</section>
+<!-- /.offer -->
+
+<section class="production">
+  <div class="container">
+    <div class="row">
+      <div class="col-7">
+        <div class="fotorama">
+          <img src="img/production.png">
+          <img src="https://s.fotorama.io/2.jpg">
+        </div>
+        
+      </div>
+      <div class="col-5">
+       <div class="production-text">
+         <div class="production-text__title">
+           Производство
+         </div>
+         <div class="production-text__descr">
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quia molestias odio hic reiciendis repellendus facilis velit cum repudiandae, voluptates similique laborum! Eaque culpa explicabo at quam amet, nemo natus cum autem, laudantium soluta impedit dignissimos laboriosam aliquid, animi, nesciunt repellat magnam laborum sunt! Doloribus a qui expedita rem, itaque.
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+</section>
+
+<script src="js/scripts.min.js"></script>
 </body>
 </html>
