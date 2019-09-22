@@ -10,6 +10,24 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
 	/**/
+@media only screen and (max-width : 576px)
+	.header
+		&-logo
+			background: $active-color url(../img/header-logo_mobile.png) center no-repeat
+			width: 35px
+			height: 35px
+			border-radius: 4px
+		&-contacts
+			display: block
+		&-phone
+			font-size: 14px
+			margin-right: 0
+			&:first-child	
+				border-right: none
+		&__button
+			display: inline-block		
+	.hidden-mobile
+		display: none		
 
 
 /* Small Devices, Tablets */
