@@ -97,18 +97,20 @@ body
 
 .header
 	padding: 15px 0
+	&__logo 
+		padding: 35px 30px
+		background:  url(../img/header-logo.png) center no-repeat
 	&-contacts
 		display: flex
 		justify-content: flex-end
 		align-items: center
 		&__phone
+			&s
+				flex-direction: column
 			font-size: 22px
 			margin-right: 13px
-
 			&:first-child
-				
 				&::after
-
 					display: inline-block
 					vertical-align: middle
 					content: ''
